@@ -4,8 +4,8 @@ int isVis(int);
 int main(int argc, char *argv[])
 {
     int months[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
-    int DD, MM, YY, i, sum, dw;
-    dw = 1;
+    int DD,MM,YY,i,sum,dw;
+    dw =1;
     if(argc < 4)
     {
      printf("argc < 4\n");
